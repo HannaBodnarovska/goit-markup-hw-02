@@ -3,18 +3,60 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --Primary-Brand: #4D5AE5;
+    --Dark: #2E2F42;
+    --Text: #434455;
+    --Accent: #E7E9FC;
+    --Light: #F4F4FD;
+    --White: #fff;
+}
+
+.header-conteiner {
+    background-color: var(--White);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 56px;
+    color: var(--White);
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--Dark);
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--Dark);
+    letter-spacing: 0.02em;
+}
+
+.title-page {
+    background-color: var(--Dark);
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    color: #2E2F42;
+    color: var(--Dark);
     text-transform: uppercase;
-    
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
-    color: #4D5AE5;
+    color: var(--Primary-Brand);
 }
 
 li {
@@ -32,62 +74,75 @@ a {
 }
 
 .navigation a {
-    color: #2E2F42;
+    color: var(--Dark);
+    letter-spacing: 0.02em;
 }
 
-address {
+.navigation a:hover,
+.navigation a:focus {
+    color: var(--Text);
+}
+
+.navigation a:active {
+    color: var(--Primary-Brand);
+}
+
+.contacts-container {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--Text);
     text-align: right;
 }
 
 .contacts {
-    color: #434455;
+    color: var(--Text);
+    letter-spacing: 0.02em;
 }
 
-h1 {
-    font-weight: 600;
-    font-size: 56px;
-    color: #FFFFFF;
-
+.contacts:hover,
+.contacts:focus {
+    color: var(--Primary-Brand);
 }
 
-.button {
+.title-button {
     width: 170px;
     height: 51px;
-    background-color: #4D5AE5;
+    background-color: var(--Primary-Brand);;
     border-radius: 4px;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.1875;
-    color: #FFFFFF;
+    color: var(--White);
     border: none;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
-h3 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
+.team-list {
+    background-color: var(--Light);
 }
 
-p {
+.team-list h3 {
+    text-align: center;
+}
+
+.team-list .comment {
+    text-align: center;
+}
+
+.comment {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--Dark);
+    letter-spacing: 0.02em;
 }
 
-h2 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2E2F42;
+.footer-container {
+    background-color: var(--Dark);
 }
 
 .logo-footer {
@@ -95,7 +150,7 @@ h2 {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    color: #F4F4FD;
+    color: var(--Light);
     text-transform: uppercase;
     
 }
@@ -104,34 +159,27 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #E7E9FC;
+    color: var(--Accent);
+    letter-spacing: 0.02em;
 }
 
 .filter button {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    color: #4D5AE5;
+    color: var(--Primary-Brand);;
     width: 116px;
     height: 48px;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background-color: var(--Light);
+    border: 1px solid var(--Accent);
     border-radius: 4px;
     cursor: pointer;
 }
 
 .filter button:hover,
 .filter button:focus {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--Primary-Brand);;
+    color: var(--White);
 }
 
-.blue-text {
-    width: 360px;
-    height: 300px;
-    background-color: #4D5AE5;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #F4F4FD;
-}
+

@@ -4,22 +4,22 @@ body {
 }
 
 :root {
-    --Primary-Brand: #4D5AE5;
-    --Dark: #2E2F42;
-    --Text: #434455;
-    --Accent: #E7E9FC;
-    --Light: #F4F4FD;
-    --White: #fff;
+    --primary-brand: #4D5AE5;
+    --dark: #2E2F42;
+    --text: #434455;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --white: #fff;
 }
 
-.header-conteiner {
-    background-color: var(--White);
+.wraper-conteiner {
+    background-color: var(--white);
 }
 
 .title {
     font-weight: 600;
     font-size: 56px;
-    color: var(--White);
+    color: var(--white);
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -28,7 +28,7 @@ h2 {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
-    color: var(--Dark);
+    color: var(--dark);
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -37,12 +37,12 @@ h3 {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--Dark);
+    color: var(--dark);
     letter-spacing: 0.02em;
 }
 
 .title-page {
-    background-color: var(--Dark);
+    background-color: var(--dark);
 }
 
 .logo {
@@ -50,13 +50,13 @@ h3 {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    color: var(--Dark);
+    color: var(--dark);
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
 .logo-web {
-    color: var(--Primary-Brand);
+    color: var(--primary-brand);
 }
 
 li {
@@ -74,17 +74,17 @@ a {
 }
 
 .navigation a {
-    color: var(--Dark);
+    color: var(--dark);
     letter-spacing: 0.02em;
 }
 
 .navigation a:hover,
 .navigation a:focus {
-    color: var(--Text);
+    color: var(--text);
 }
 
 .navigation a:active {
-    color: var(--Primary-Brand);
+    color: var(--primary-brand);
 }
 
 .contacts-container {
@@ -93,36 +93,36 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--Text);
+    color: var(--text);
     text-align: right;
 }
 
 .contacts {
-    color: var(--Text);
+    color: var(--text);
     letter-spacing: 0.02em;
 }
 
 .contacts:hover,
 .contacts:focus {
-    color: var(--Primary-Brand);
+    color: var(--primary-brand);
 }
 
 .title-button {
     width: 170px;
     height: 51px;
-    background-color: var(--Primary-Brand);;
+    background-color: var(--primary-brand);;
     border-radius: 4px;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.1875;
-    color: var(--White);
+    color: var(--white);
     border: none;
     cursor: pointer;
     letter-spacing: 0.04em;
 }
 
 .team-list {
-    background-color: var(--Light);
+    background-color: var(--light);
 }
 
 .team-list h3 {
@@ -137,29 +137,29 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--Dark);
+    color: var(--text);
     letter-spacing: 0.02em;
 }
 
-.footer-container {
-    background-color: var(--Dark);
+.bottom-of-page {
+    background-color: var(--dark);
 }
 
-.logo-footer {
+.logo-bottom-of-page {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    color: var(--Light);
+    color: var(--light);
     text-transform: uppercase;
     
 }
 
-.p-footer {
+.p-bottom-of-page {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--Accent);
+    color: var(--accent);
     letter-spacing: 0.02em;
 }
 
@@ -167,19 +167,19 @@ a {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--Primary-Brand);;
+    color: var(--primary-brand);;
     width: 116px;
     height: 48px;
-    background-color: var(--Light);
-    border: 1px solid var(--Accent);
+    background-color: var(--light);
+    border: 1px solid var(--accent);
     border-radius: 4px;
     cursor: pointer;
 }
 
 .filter button:hover,
 .filter button:focus {
-    background-color: var(--Primary-Brand);;
-    color: var(--White);
+    background-color: var(--primary-brand);;
+    color: var(--white);
 }
 
 
